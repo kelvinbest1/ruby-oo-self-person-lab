@@ -56,11 +56,7 @@ class Person
         
         self.happiness +=3
         person.happiness +=3
-        if self
-            "Hi Felix! It's Penelope. How are you?"
-        elsif person
-            "Hi Penelope! It's Felix. How are you?"
-        end
+        "Hi #{person.name}! It's #{self.name}. How are you?"
     end
 
     def work_out()
